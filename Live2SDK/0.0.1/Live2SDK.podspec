@@ -42,6 +42,6 @@ Pod::Spec.new do |s|
 #    s.resources = 'Live2SDK/Assets/**/*'
 #    
 #    s.public_header_files = 'Live2SDK/Classes/**/*.h'
- #   s.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'AVKit', 'Combine', 'AVFoundation', 'QuartzCore'
-  #  s.dependency 'SDWebImage', '~> 5.0'
+     s.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'AVKit', 'Combine', 'AVFoundation', 'QuartzCore'
+     s.dependency 'SDWebImage', '~> 5.0'
 end
