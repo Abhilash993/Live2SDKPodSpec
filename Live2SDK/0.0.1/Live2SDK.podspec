@@ -33,15 +33,13 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.0'
     s.swift_version = '4.2'
     
-#    s.source_files = 'Live2SDK/Classes/**/*'
-#    
-#    s.resource_bundles = {
-#        'Live2SDK' => ['Live2SDK/Assets/**/*.png']
-#    }
-#    
-#    s.resources = 'Live2SDK/Assets/**/*'
-#    
-#    s.public_header_files = 'Live2SDK/Classes/**/*.h'
-     s.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'AVKit', 'Combine', 'AVFoundation', 'QuartzCore'
-     s.dependency 'SDWebImage', '~> 5.0'
+    s.source_files = 'Live2SDK/Classes/**/*'
+    s.resource_bundles = {
+        'Live2SDK' => ['Live2SDK/Assets/**/*.png']
+    }
+    s.resources = 'Live2SDK/Assets/**/*'
+    s.public_header_files = 'Live2SDK/Classes/**/*.h'
+    
+    s.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'AVKit', 'Combine', 'AVFoundation', 'QuartzCore'
+    s.dependency 'SDWebImage', '~> 5.0'
 end
