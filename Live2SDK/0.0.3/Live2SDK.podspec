@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Abhilash993' => 'abhilashk@woovly.com' }
-  s.source           = { :http => 'https://storage.googleapis.com/uploads-live2ai-dev/sdk_assets/Live2SDK.zip' }
+  s.source           = { :http => 'https://storage.googleapis.com/uploads-live2ai-dev/sdk_assets/Live2SDK-v0.0.3.zip' }
 #  s.source           = { :git => 'https://github.com/Abhilash993/Live2SDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.vendored_frameworks = 'Live2SDK.xcframework'
